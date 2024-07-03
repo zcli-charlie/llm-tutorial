@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="On the Shoulders of LLMs: From LLM Optimization to LLM Agents">
+        <meta property="og:description" content="On the Shoulders of LLMs: From LLM Optimization to LLM Agents">
+
+        <title>On the Shoulders of LLMs: From LLM Optimization to LLM Agents</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="./css/agency.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="./css/0.css" rel="stylesheet" type="text/css">
+        <link href="./css/1.css" rel="stylesheet" type="text/css">
+        <link href="./css/2.css" rel="stylesheet" type="text/css">
+        <link href="./css/3.css" rel="stylesheet" type="text/css">
+
+    
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden active">
+                    <a href="https://generative-rec.github.io/tutorial/#page-top"></a>
+                </li>
+<!--                 <li>
+                    <a class="page-scroll" href="#summary">Intro</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contributions">contributions</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#speaker">Speakers</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#call">Call for Papers</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#dates">Important Dates</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#schedule">Schedule</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#organizer">Organizer</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li> -->
+                <li>
+                    <a class="page-scroll" href="https://generative-rec.github.io/tutorial/#summary">Summary</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://generative-rec.github.io/tutorial/#resources">Resources</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://generative-rec.github.io/tutorial/#organizer">Organizer</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://generative-rec.github.io/tutorial/#contributors">Contributors</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+ 
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text" style="color:white;">
+
+                <div class="intro-heading">On the Shoulders of LLMs: From LLM Optimization to LLM Agents</div>
+                <div class="intro-lead-in"> ICPRAI 2024 Tutorial </div>
+                </div>
+                <div class="intro-lead-in"> 
+                </div>
+                
+                <a href="https://brain.korea.ac.kr/icprai2024/tutorials.php" class="btn">Website</a>
+                <a href="https://generative-rec.github.io/survey/" class="btn">Slides</a>  
+                <!-- to be updated -->
+                
+            </div>
+        </div>
+    </header>
+
+    <section id="summary" style="padding-top: 30px;" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Summary</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+
+                        The tutorial will start with the basic architecture of LLMs and move on to advanced optimization techniques. Participants will learn how to enhance the performance of LLMs during the inference stage by optimizing KV cache for quicker response times, extended memory capabilities, and improved answer quality. Furthermore, the tutorial will cover diverse LLM reasoning method including, Chain-of-Thought (CoT) reasoning, to enhance the interpretability, controllability, and flexibility of LLMs. <br> 
+
+                        With a robust understanding of LLM enhancements, we turn to the emerging field of language agents powered by LLMs. The emergence of LLMs has significantly accelerated the evolution of AI agents, pushing closer to the long-standing goal of building intelligent, autonomous agents that can learn and act in distinct environments. This session will guide attendees through the concepts of agents, how LLMs empower these agents, and the challenges these agents might face in the future aiming to equip participants with the knowledge to effectively implement and manage LLMs in a responsible and efficient manner. 
+                    </p>
+
+                    <!-- <ul class="large text-muted">
+                        <li>Time series pattern mining and detection, representation, searching and indexing, classification, clustering, prediction, forecasting, and rule mining.
+                        </li>
+                        <li>Time series with special structure: spatiotemporal (e.g., traffic speeds at different locations), relational (e.g., patients with similar diseases), hierarchical, etc.
+                        </li>
+                        <li>Time series with sparse or irregular sampling, missing values at and not at random, and special types of measurement noise or bias.
+                        </li>
+                        <li>Time series that are multivariate, high-dimensional, heterogeneous, etc., or that possess other atypical properties.
+                        </li>
+                        <li>Time series analysis using less traditional approaches, such as deep learning and subspace clustering.</li>
+                        <li>Privacy preserving time series mining and learning.</li>
+                        <li>Online, high-speed learning and mining from streaming time series.</li>
+                        <li>Uncertain time series mining.</li>
+                        <li>Applications to high impact or relatively new time series domains, such as health and medicine, road traffic, and air quality.
+                        </li>
+                        <li>New, open, or unsolved problems in time series analysis and mining.
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+  <style>
+    del {
+      text-decoration: line-through; /* 添加横线 */
+      color: rgba(128, 128, 128, 0.5); /* 设置文本颜色 */
+    }
+        .extended-date {
+      color: red; /* 设置文本颜色为红色 */
+    }
+  </style>
+
+
+<section id="resources" class="">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Resources</h2>
+        <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+      </div>
+    </div>
+    <div class="row text-justify">
+      <div class="col-md-12">
+        <ul class="large text-muted">
+            <li>Igniting Language Intelligence: The Hitchhiker’s Guide From Chain-of-Thought Reasoning to Language Agents <a href="https://arxiv.org/pdf/2311.11797.pdf">[Paper]</a></li>
+            <li>R-Judge: Benchmarking Safety Risk Awareness for LLM Agents <a href="https://arxiv.org/pdf/2401.10019.pdf">[Paper]</a></li>
+            <li>Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science <a href="https://arxiv.org/abs/2402.04247">[Paper]</a></li>
+            <li>You Only Look at Screens: Multimodal Chain-of-Action Agents <a href="https://arxiv.org/abs/2309.11436">[Paper]</a></li>
+            <li>Multimodal Chain-of-Thought Reasoning in Language Models <a href="https://arxiv.org/abs/2302.00923">[Paper]</a></li>
+            <li>Automatic Chain of Thought Prompting in Large Language Models <a href="https://arxiv.org/abs/2210.03493">[Paper]</a></li>
+            <li>Identifying the Risks of LM Agents with an LM-Emulated Sandbox <a href="https://arxiv.org/abs/2309.15817">[Paper]</a></li>
+            <li>A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents <a href="https://arxiv.org/abs/2402.10196">[Paper]</a></li>
+            <li>Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations <a href="https://arxiv.org/abs/2312.06674">[Paper]</a></li>
+            <li>ShieldLM: Empowering LLMs as Aligned, Customizable and Explainable Safety Detectors <a href="https://arxiv.org/abs/2402.16444">[Paper]</a></li>
+            <li>Efficient Memory Management for Large Language Model Serving with PagedAttention <a href="https://dl.acm.org/doi/abs/10.1145/3600006.3613165">[Paper]</a></li>
+            <li>GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints <a href="https://aclanthology.org/2023.emnlp-main.298/">[Paper]</a></li>
+            <li>Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Language Models <a href="https://arxiv.org/abs/2305.16582">[Paper]</a></li>
+            <li>SirLLM: Streaming Infinite Retentive LLM <a href="https://arxiv.org/abs/2405.12528">[Paper]</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="organizer" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center" style="padding-bottom: 20px;">
+                <h2 class="section-heading">Tutorial Organizers </h2>
+                <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+            </div>
+        </div>
+        
+        <div class="row">
+
+            
+            <div class="col-sm-2">
+    &nbsp;
+</div>
+            
+<style>
+    .team-member img {
+        width: 200px; /* 设置图片宽度 */
+        height: 200px; /* 设置图片高度 */
+        object-fit: cover; /* 保持图片内容不变形 */
+    }
+</style>
+
+<div class="col-sm-2">
+    <div class="team-member">
+        <img src="./photos/zuchao_li.png" class="img-responsive img-circle" alt="" width="600" height="600">
+        <h4><a href="https://zcli-charlie.github.io/">Mr. Zuchao Li</a></h4>
+        <p class="text-muted">Associate Researcher</p>
+        <p class="text-muted">Wuhan University</p>
+    </div>
+</div>
+
+<div class="col-sm-1">
+    &nbsp;
+</div>
+            
+<div class="col-sm-2">
+    <div class="team-member">
+        <img src="./photos/yao_yao.jpg" class="img-responsive img-circle" alt="" width="600" height="600">
+        <h4><a href="https://zoeyyao27.github.io/">Ms. Yao Yao</a></h4>
+        <p class="text-muted">Ph.D Candidate</p>
+        <p class="text-muted">Shanghai Jiao Tong University</p>
+    </div>
+</div>
+
+<div class="col-sm-1">
+    &nbsp;
+</div>
+            
+<div class="col-sm-2">
+    <div class="team-member">
+        <img src="./photos/zhuosheng_zhang.jpg" class="img-responsive img-circle" alt="" width="600" height="600">
+        <h4><a href="https://bcmi.sjtu.edu.cn/~zhangzs/">Mr. Zhuosheng Zhang</a></h4>
+        <p class="text-muted">Associate Professor</p>
+        <p class="text-muted">Shanghai Jiao Tong University</p>
+    </div>
+</div>
+
+
+<div class="col-sm-1">
+    &nbsp;
+</div>
+            
+        </div>
+        
+    </div>
+</section>
+
+
+<section id="contributors" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center" style="padding-bottom: 20px;">
+                <h2 class="section-heading">Tutorial Contributors </h2>
+                <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+            </div>
+        </div>
+        
+        <div class="row">
+
+            
+            <div class="col-sm-2">
+    &nbsp;
+</div>
+            
+<style>
+    .team-member img {
+        width: 200px; /* 设置图片宽度 */
+        height: 200px; /* 设置图片高度 */
+        object-fit: cover; /* 保持图片内容不变形 */
+    }
+</style>
+
+<div class="col-sm-2">
+    <div class="team-member">
+        <img src="./photos/luohe_shi.jpg" class="img-responsive img-circle" alt="" width="600" height="600">
+        <h4><a href="https://zcli-charlie.github.io/">Mr. Luohe Shi</a></h4>
+        <p class="text-muted">Graduate Student</p>
+        <p class="text-muted">Wuhan University</p>
+    </div>
+</div>
+
+<div class="col-sm-1">
+    &nbsp;
+</div>
+            
+<div class="col-sm-2">
+    <div class="team-member">
+        <img src="./photos/tongxin_yuan.jpg" class="img-responsive img-circle" alt="" width="600" height="600">
+        <h4><a href="https://zoeyyao27.github.io/">Mr. Tongxin Yuan</a></h4>
+        <p class="text-muted">Graduate Student</p>
+        <p class="text-muted">Shanghai Jiao Tong University</p>
+    </div>
+</div>
+
+<div class="col-sm-1">
+    &nbsp;
+</div>
+            
+            
+        </div>
+        
+    </div>
+</section>
+
+
+    <!-- jQuery -->
+    <script src="./js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/classie.js"></script>
+    <script src="./js/cbpAnimatedHeader.js"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./js/agency.js"></script>
+
+
+
+
+</body>
+
+</html>
